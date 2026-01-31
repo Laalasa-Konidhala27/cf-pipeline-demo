@@ -16,6 +16,6 @@ Resources:
     Type: AWS::EC2::Instance
     Properties:
       ImageId: ami-0532be01f26a3de55   # Amazon Linux (change region if needed)
-      InstanceType: t3.micro
+      InstanceType: t3.small
       SecurityGroupIds:
         - !Ref MySecurityGroup
